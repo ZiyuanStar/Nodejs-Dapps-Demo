@@ -6,13 +6,12 @@ An easy-to-understand tutorial for newbies to develop smart contact on BNB Smart
 
 ## What You Will Learn
 Through this tutorial, you will learn
-
-    MetaMask Wallet connectivity to BSC Testnet;
-    Smart-contract development;
-    Using truffle and ganache for local development and testing;
-    Unit testing of smart contracts;
-    Deploying smart contracts on BSC Testnet;
-    Front-end integration with smart contract using web3.js library;
+* MetaMask Wallet connectivity to BSC Testnet;
+* Smart-contract development;
+* Using truffle and ganache for local development and testing;
+* Unit testing of smart contracts;
+* Deploying smart contracts on BSC Testnet;
+* Front-end integration with smart contract using web3.js library;
 
 ## Target audience
 This tutorial aims to provide adequate information to anyone who wants to learn dApp development on BNB Smart Chain.
