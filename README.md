@@ -35,7 +35,7 @@ This tutorial aims to provide adequate information to anyone who wants to learn 
    * v10.22.2
 
 ## Setup
-1. Clone the repository gh repo clone https://github.com/bnb-chain/bnb-chain-tutorial
+1. Clone the repository gh repo clone https://github.com/ZiyuanStar/Nodejs-Dapps-Demo
 2. Change the current directory cd 01- Hello World Full Stack dApp on BSC
 3. Install all the dependencies (node modules) npm install
 4. Create a .secret file with the secret phrase of MetaMask. Refer here for details on how to get MetaMask secret phrase.
