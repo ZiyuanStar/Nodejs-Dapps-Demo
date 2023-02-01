@@ -1,6 +1,8 @@
 # Nodejs-Dapps-Demo
 Use nodejs to build the frontend and backend for Dapps
 
+![Hello World Dapp](/Applications/Python 3.7/BNB Tuturial/dapps/bnb-chain-tutorial/01- Hello World Full Stack dApp on BSC/hello world.png)
+
 ## Overview
 An easy-to-understand tutorial for newbies to develop smart contact on BNB Smart Chain. In this tutorial, we provide a step-by-step guide on how to develop a full-stack Hello World Smart dApp that is used for storing and retrieving data from the BSC blockchain. The technology stack used includes Solidity, Truffle, Ganache, Web3.js, and Node js. This smart contract is then deployed on the BNB Smart Chain Testnet.
 
