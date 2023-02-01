@@ -56,8 +56,9 @@ This tutorial aims to provide adequate information to anyone who wants to learn 
 ```
 
 ## Structure
-HelloWorld.
 
+```
+HelloWorld.
 |   .env
 |   .gitattributes
 |   LICENSE
@@ -95,6 +96,7 @@ HelloWorld.
 |       .gitkeep
 |       hello_world.js       
 |       
+```
 
 ## How it Works
 ### Checklist
