@@ -40,7 +40,7 @@ This tutorial aims to provide adequate information to anyone who wants to learn 
 
 ## Setup
 1. Clone the repository gh repo clone ZiyuanStar/Nodejs-Dapps-Demo
-2. Change the current directory cd 01- Hello World Full Stack dApp on BSC
+2. Change the current directory cd Nodejs-Dapps-Demo
 3. Install all the dependencies (node modules) npm install
 4. Create a .secret file with the secret phrase of MetaMask. Refer here for details on how to get MetaMask secret phrase.
 5. Compile Smart Contracts truffle compile
