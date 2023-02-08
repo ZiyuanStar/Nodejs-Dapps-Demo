@@ -41,12 +41,12 @@ This tutorial aims to provide adequate information to anyone who wants to learn 
 ## Setup
 1. Clone the repository gh repo clone ZiyuanStar/Nodejs-Dapps-Demo
 2. Change the current directory cd Nodejs-Dapps-Demo
-3. Install all the dependencies (node modules) npm install
+3. Install all the dependencies (node modules): npm install
 4. Create a .secret file with the secret phrase of MetaMask. Refer here for details on how to get MetaMask secret phrase.
-5. Compile Smart Contracts truffle compile
-6. Migrate Smart Contracts truffle migrate --reset --network bscTestnet
-7. Create build npm run build
-8. Run the application npm run dev
+5. Compile Smart Contracts: truffle compile
+6. Migrate Smart Contracts: truffle migrate --reset --network bscTestnet
+7. Create build: npm run build
+8. Run the application: npm run dev
 >  Note: Make Sure Nothing is Running on localhost:3000
 
 ## Available Scripts
