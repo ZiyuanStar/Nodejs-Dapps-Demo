@@ -127,7 +127,7 @@ HelloWorld.
 
 * Make sure that Ganache is running. This is important because testing is done on the local network.
 * From the root directory of the project, open command prompt.
-* Run the command truffle test to run the tests.
+* Run the command ```truffle test``` to run the tests.
 
 ## Unit Test Coverage
 
