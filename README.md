@@ -35,6 +35,7 @@ This tutorial aims to provide adequate information to anyone who wants to learn 
 * MetaMask Wallet
    
    * v10.22.2
+**Note: Avoid using Node v19 which may cause error during application start process.
 
 ## Setup
 1. Clone the repository gh repo clone ZiyuanStar/Nodejs-Dapps-Demo
