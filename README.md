@@ -32,6 +32,7 @@ This tutorial aims to provide adequate information to anyone who wants to learn 
    * Solidity - ^0.8.0 (solc-js)
    * Node v18.13.0
    * Web3.js v1.8.1
+* Webpack
 * MetaMask Wallet
    
    * v10.22.2
