@@ -143,12 +143,13 @@ HelloWorld.
   4 passing (5s)
 ```
 
-### Tips
-#### Why do I get Error: Could not find block during contract compilation?
+## Tips
+
+### Why do I get "Error: Could not find block" during contract compilation?
 
 Please use node version before v19. You can download a sepecified version of node by installing nvm and running ```nvm install 18```
 
-#### Why do I get opensslErrorStack error?
+### Why do I get opensslErrorStack error?
 
 If you get errors like below:
 ```
