@@ -144,8 +144,9 @@ HelloWorld.
 ```
 
 ### Tips
-#### How to install node of a specified version?
-install nvm and run ```nvm install 18```
+#### Why do I get Error: Could not find block?
+
+Please use node version before v19. You can download a sepecified version of node by installing nvm and running ```nvm install 18```
 
 #### Why do I get opensslErrorStack error?
 
