@@ -149,7 +149,7 @@ install nvm and run ```nvm install 18```
 
 #### Why do I get opensslErrorStack error?
 
-If you get error like below:
+If you get errors like below:
 ```
   opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
   library: 'digital envelope routines',
