@@ -13,16 +13,16 @@ contract('HelloWorld', function(accounts) {
 
   //Test to check if the save button is working or not
   it('Should save name',async () => {
-    let result = await instance.setName.sendTransaction('Rumeel',{from: accounts[0]}); 
+    let result = await instance.setName.sendTransaction('Coco',{from: accounts[0]}); 
     let message = await instance.getMessage.call({from: accounts[0]});           
-    assert.equal(message, "Hello, Rumeel","Incorrect message.");        
+    assert.equal(message, "Hello, Coco","Incorrect message.");        
   });
 
   //Test to check if the default values for accounts other than the 1s default account of wallet
   it('Should be default message for other accounts',async () => {
     let message1 = await instance.getMessage.call({from: accounts[0]});   
     let message2 = await instance.getMessage.call({from: accounts[1]});
-    assert.equal(message1, "Hello, Rumeel","Incorrect user message.");  
+    assert.equal(message1, "Hello, Coco","Incorrect user message.");  
     assert.equal(message2, "Hello, World","Incorrect message.");  
   });
 
