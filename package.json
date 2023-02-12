@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "ganache": "ganache-cli -m 'electric gift gold bitter boring surface stumble swift peanut adult horse dish'",
+    "ganache": "ganache-cli -m 'need champion step tone example napkin key net grief fan focus repair'",
     "test": "truffle test",
     "start": "node server/main.js",
     "dev": "node_modules/.bin/webpack && node server/main.js",
