@@ -6,7 +6,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "ganache": "ganache-cli -m 'electric gift gold bitter boring surface stumble swift peanut adult horse dish'",
+    "test": "truffle test",
     "start": "node server/main.js",
     "dev": "node_modules/.bin/webpack && node server/main.js",
     "webpack": "node_modules/.bin/webpack --watch",
