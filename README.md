@@ -132,15 +132,27 @@ HelloWorld.
 
 ## Unit Test Coverage
 
+1. Install and run ganache-cli before executing the tests ```$ npm i ganache-cli --save-dev```
+2. Add the following scripts to package.json file to run the ganache and test through npm:
+```
+"ganache": "ganache-cli -m 'need champion step tone example napkin key net grief fan focus repair'", //put your own mnemonic here.
+"test": "truffle test"
+```
+3. Open two terminals inside the app directory and then first run the ganache-cli:
+```$ npm run ganache```
+In the second terminal, run the test file:
+```$ npm run test```
+
+The result of the above command should look like this:
 ```
   Contract: HelloWorld
-    √ Default message should be hello, world (264ms)
-    √ Should save name (796ms)
-    √ Should be default message for other accounts (412ms)
-    √ Should throw error on empty name (3306ms)
+    ✔ Default message should be hello, worldAttempt #1
+    ✔ Should save name (50ms)from solc-bin. Attempt #1
+    ✔ Should be default message for other accounts
+    ✔ Should throw error on empty name (264ms)tempt #1
+⠧ Fetching solc version list from solc-bin. Attempt #1
 
-
-  4 passing (5s)
+  4 passing (420ms)
 ```
 
 ## Tips
