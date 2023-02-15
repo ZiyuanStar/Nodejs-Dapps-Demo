@@ -33,7 +33,7 @@ App = {
         return App.bindEvents();
     },
     bindEvents: function() { 
-        $('#buttonAccount').click(App.getAccount);  //Setting on-click function for Save Button
+        $('#buttonAccount').click(App.getAccount);  //Setting on-click function for Account Button
         $('#buttonSave').click(App.setName);  //Setting on-click function for Save Button
         $('#buttonMessage').click(App.loadMessage); //Setting on-click function for Greet Button to display message
     },
