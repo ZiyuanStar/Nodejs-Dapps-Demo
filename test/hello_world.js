@@ -18,7 +18,7 @@ contract('HelloWorld', function(accounts) {
     assert.equal(message, "Hello, Coco","Incorrect message.");        
   });
 
-  //Test to check if the default values for accounts other than the 1s default account of wallet
+  //Test to check if the default values for accounts other than the 1s default account of wallet works
   it('Should be default message for other accounts',async () => {
     let message1 = await instance.getMessage.call({from: accounts[0]});   
     let message2 = await instance.getMessage.call({from: accounts[1]});
